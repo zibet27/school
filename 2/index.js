@@ -4,7 +4,7 @@ canvas.height = window.innerHeight;
 const ctx = canvas.getContext("2d");
 ctx.lineWidth = 2;
 
-// 60 degrees angle
+// 120 degrees angle
 const angle = (Math.PI / 3) * 2;
 const sin = Math.sin(angle);
 const cos = Math.cos(angle);
