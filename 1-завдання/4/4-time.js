@@ -1,3 +1,6 @@
+// to run this code type "node 4-time.js" in your command line
+// if you don't have node.js installed, check this link https://nodejs.org/uk/download/current/
+
 const { readFile, writeFile } = require("fs");
 
 readFile("./input.txt", { encoding: "utf-8" }, (err, data) => {
